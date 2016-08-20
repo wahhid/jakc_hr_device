@@ -25,6 +25,7 @@ Features:
         ],
     'data': [
         'views/jakc_hr_device_view.xml',
+        'views/jakc_hr_device_menu.xml',
     ],    
     "installable": True,
     "application": True,
