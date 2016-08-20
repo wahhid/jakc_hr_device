@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<openerp>
+	<data>
+		 <menuitem name="Device" id="menu_hr_device" action="action_hr_device"
+            parent="hr_attendance.menu_hr_attendance_root" sequence="1"/>
+	</data>
+</openerp>

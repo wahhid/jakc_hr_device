@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<openerp>
+	<data>
+		<!-- HR/DEVICE -->
+        <record model="ir.ui.view" id="view_hr_device_form">
+            <field name="name">hr.device.form</field>
+            <field name="model">hr.device</field>						
+            <field name="type">form</field>						
+            <field name="arch" type="xml">
+                <form string="Device" version="7.0">
+                	<sheet>
+	                    <group>                            
+	                        <field name="name"/>
+	                        <field name="ip_address"/>                             
+	                    </group>	                		                	
+                	</sheet>  
+                </form>
+            </field>
+        </record>
+		
+        <record model="ir.ui.view" id="view_hr_device_tree">
+            <field name="name">hr.device.tree</field>
+            <field name="model">hr.device</field>			
+            <field name="type">tree</field>						
+            <field name="arch" type="xml">
+                <tree string="Device">
+                    <field name="name"/>
+                    <field name="ip_address"/>		
+                </tree>
+            </field>
+        </record>
+        
+        
+        <!-- HR/ACTION -->
+        <!-- DEVICE -->
+		<record model="ir.actions.act_window" id="action_hr_device">
+            <field name="name">Device</field>
+            <field name="res_model">hr.device</field>
+            <field name="view_mode">tree,form</field>
+        </record>		
+	</data>
+</openerp>

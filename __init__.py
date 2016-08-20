@@ -1,5 +1,1 @@
-'''
-Created on Aug 20, 2016
-
-@author: wahhid
-'''
+import models
