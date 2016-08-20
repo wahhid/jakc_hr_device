@@ -1,1 +1,2 @@
 import jakc_hr_device
+import jakc_hr_attendance
